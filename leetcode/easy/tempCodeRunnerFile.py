@@ -1,0 +1,1 @@
+            res = curd + res
