@@ -1,5 +1,5 @@
 class Solution:
-    def findDisappearedNumbers(self, nums: List[int]) -> List[int]:
+    def findDisappearedNumbers(self, nums: List[int ]) -> List[int]:
         res = []
         for i in range(len(nums)):
             idx = abs(nums[i]) - 1
