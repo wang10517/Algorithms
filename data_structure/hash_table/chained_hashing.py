@@ -81,7 +81,7 @@ class chainedHashTable:
         for item in self.table:
             if item:
                 list_info = ""
-                while item:
+                while item:asd
                     list_info = list_info + str(item) + " "
                     item = item.next
                 result.append(list_info)        
