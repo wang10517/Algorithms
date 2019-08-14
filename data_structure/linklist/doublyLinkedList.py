@@ -51,6 +51,14 @@ class doublyLinkedList(object):
             hd = hd.next
         return None
 
+    def printList(self):
+        hd = self.head
+        res = []
+        while hd:
+            res.append(hd.val)
+            hd = hd.next
+        print(res)
+
     def __str__(self):
         hd = self.head
         result = []
